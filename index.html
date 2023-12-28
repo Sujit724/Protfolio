@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ee4a65b691.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        
+        <h2>.Ydv<span>Sujit</span></h2>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </div>
+
+    <section class="home">
+      <div class="header-text">
+        <span class="text first-text">I'm a</span>
+        <span class="text sec-text"></span>
+        <h1>Hi, I'm <span>Sujit</span><br> Yadav From Nepal</h1>
+      </div>
+
+      <div class="my_pic">
+        <img src="somit.png">
+      </div>
+
+    </section>
+
+
+
+
+
+  </div>
+  <!---------about--------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/pro.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am enthustic, self-motivated, reliable, responsible and hard working person. I am a mature team worker. I
+            belive in learning new skills everyday. I am team player, I am able to work well both in a team environment
+            as well. My academic background in computer scienceand mathematics has provide me with a solid foundation in
+            the principles of IT engineering, which I am eager to apply to real-world problems.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          </div>
+          <div class="tab-content active-tab" id="skills">
+            <ul>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>Data Scientist</span><br>ML, Data Preapartion, DL, DBMS</li>
+              <li><span>Programming Langauage</span><br>Python, Java, SQL, javascript</li>
+              <li><span>Data Analytics</span><br>Excel, SQL, Data Analysis and visualization</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="education">
+            <ul>
+              <li><span>2024</span><br>B.tech in IT from Jain University Bangalore</li>
+              <li><span>2019(12th)</span><br>Model Multiple College Janakpuedham, Nepal</li>
+              <li><span>2017(10th)</span><br>Shree B. D. J. SEC. School Tulsiyahi, Nepal</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="certificate">
+            <ul>
+              <li><span>Front-End Development</span><br>HTML, CSS, javascript, React js</li>
+              <li><span>Digital Marketing</span><br>From Google</li>
+              <li><span>Programming Langauage</span><br>Python, Java, SQL, javascript</li>
+              <li><span>Data Analytics</span><br>Data Analysis with R Programming, Prepare Data for Exploration, Data
+                Everywhere and Process data from dirty to clean</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="experience">
+            <ul>
+              <li><span>2023</span><br>Data Science with Python</li>
+              <li><span>2023</span><br>Internship at Coincent Learning</li>
+              <li><span>2022</span><br>Python Workshops</li>
+              <li><span>2021</span><br> Coding Bootcamp on"Problem-Solving using C-L1"</li>
+            </ul>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------Services------>
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Web design refers to the process of creating and arranging various elements, such as layout, graphics,
+            colors, typography, and interactive features, to build a visually appealing and functional website. It
+            involves both the aesthetic aspects of a website's appearance and the technical aspects of its usability and
+            user experience!</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>Data Analytics</h2>
+          <p>Mobile application development is the process of making software for smartphones, tablets and digital
+            assistants, most commonly for the Android and iOS operating systems. The software can be preinstalled on the
+            device, downloaded from a mobile app store or accessed through a mobile web browser.The programming and
+            markup languages used for this kind of software development include Java, Swift, C# and HTML5!</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-python"></i>
+          <h2>Python</h2>
+          <p>Python is a computer programming language often used to build websites and software, automate tasks, and
+            conduct data analysis. Python is a general-purpose language, meaning it can be used to create a variety of
+            different programs and isn't specialized for any specific problems!</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-java"></i>
+          <h2>Java</h2>
+          <p>Java is a widely-used programming language for coding web applications. It has been a popular choice among
+            developers for over two decades, with millions of Java applications in use today. Java is a multi-platform,
+            object-oriented, and network-centric language that can be used as a platform in itself!</p>
+          <a href="#">Learn more</a>
+        </div>
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+  </div>
+
+  <!---------------Portfolio-------->
+  <div id="Portfolio">
+    <div class="container">
+      <h1>
+        <h1 class="sub-title">My Work</h1>
+      </h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png">
+          <div class="layer">
+            <h3>Weather App</h3>
+            <p>Weather forecast app provides detailed local forecast & weather forecast world wide, the app provides the
+              current temperature in Celsius and Fahrenheit, sunrise and sunset time according to city time zone.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+          </div>
+
+        </div>
+        <div class="work">
+          <img src="images/work-2.png">
+          <div class="layer">
+            <h3>Ecommerce Clone</h3>
+            <p>An Ecommerce clone is a website or application that is a created by replicating the functionality and
+              features of an existing ecommerce platform. It is a type of website clone,which aims to recreate the user
+              experience of the original website</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+          </div>
+
+        </div>
+        <div class="work">
+          <img src="images/work-3.png">
+          <div class="layer">
+            <h3>Restaurent Website</h3>
+            <p>A restaurent website is an online platform tht provides information about a restaurents
+              menu,location,hours of operation,and other important details.It may also allow customers to make
+              reservation,order food for delivery or pickup and view customer reviews</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+          </div>
+
+        </div>
+        <div class="work">
+          <img src="images/fff.png">
+          <div class="layer">
+            <h3>Flight Mangement</h3>
+            <p>A Flight Management System (FMS) is an on-board multi-purpose navigation, performance, and aircraft
+              operations computer designed to provide virtual data and operational harmony between closed and open
+              elements associated with a flight from pre-engine start and take-off, to landing and engine shut-down.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+          </div>
+
+        </div>
+
+      </div>
+      <a href="#" class="btn">See more</a>
+
+    </div>
+
+  </div>
+  <!--------contact-------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-tittle">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+          <p><i class="fa-solid fa-phone"></i>9036458364</p>
+          <div class="social-icons">
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+
+          </div>
+          <a href="images/20BTRIS072(Sujit Kumar Yadav) Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+
+          </form>
+          <span id="msg"></span>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="copyright">
+      <p>copyright @ Sujit. Made with <i class="fa-solid fa-heart"></i> by Sujit Yadav</p>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-content");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+
+
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+
+
+
+
+
+
+
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz9IQsuk1ruN1lMPbKF9GreuNhwuzBz2oRdyneSefUTu-3VsDkg-VrnJv_25rn0jQP9mQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent suceesfully"
+          sentTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+
+    
+  </script>
+
+  <script>
+    const text = document.querySelector(".sec-text");
+
+    const textLoad = () => {
+      setTimeout(() => {
+        text.textContent = "Data Analyst";
+      }, 0);
+      setTimeout(() => {
+        text.textContent = "Front-End Developer";
+      }, 4000);
+      setTimeout(() => {
+        text.textContent = "Software Engineer";
+      }, 8000);
+    }
+
+    textLoad();
+    setInterval(textLoad, 12000);
+  </script>
+</body>
+
+</html>
